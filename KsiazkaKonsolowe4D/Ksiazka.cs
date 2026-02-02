@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KsiazkaKonsolowe4D
 {
-    internal class Ksiazka
+    public class Ksiazka
     {
         public List<Strona> strony = new List<Strona>();
         
@@ -19,6 +19,7 @@ namespace KsiazkaKonsolowe4D
         public void DodajStrone(string trescStrony)
         {
             var Strona = new Strona(trescStrony);
+            strony.Add(Strona);
         }
     }
 }

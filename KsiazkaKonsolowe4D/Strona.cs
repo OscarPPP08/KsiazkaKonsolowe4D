@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KsiazkaKonsolowe4D
 {
-    internal class Strona
+    public class Strona
     {
         public string trescStrony;
         public uint numerStrony;
